@@ -10,7 +10,18 @@
 
 </head>
 
-<body
+<body>
+    <form>
+        <h1>Text area:</h1>
+        <textarea id="input" placeholder="Input your text here..."></textarea>
+        <input type="button" value="Calculate" onclick="Main();"/>
+    </form>
+    <div>
+        <p>Number of words: <span id="numOfWords"></span></p>
+        <p>Length of the maximal word: <span id="maximalWord"></span></p>
+        <p>Length of the minimum word: <span id="minimumWord"></span></p>
+        <p>Average length of words: <span id="averageWords"></span></p>
+    </div>
 
     <script src="./task1.js"></script>
 </body>
