@@ -1,0 +1,30 @@
+* {
+    margin-left: 15px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: Times New Roman;
+    font-weight: normal;
+    margin: 0px 0px 0px 15px;
+}
+
+textarea {
+    height: 10%;
+    width: 18%;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 15px;
+}
+
+button {
+    margin-left: 290px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.textOutput {
+    font-size: 17px;
+    line-height: 25px;
+}
