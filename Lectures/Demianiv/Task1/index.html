@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Task 1 - Basics of JS</title>
-
-    <!-- ****** Styles ****** -->
-
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="main.css">
 
 </head>
-
-<body
-
-    <script src="./task1.js"></script>
+<body>
+    <div class="wrapper">
+    <h1>Text area: </h1>
+    <textarea class="inputField" ></textarea>
+    
+    <button class="calculateButton" onclick="calculateClickHandler()">Calculate</button>
+    <div id="outputArea" hidden>
+        <p class="property">Number of words:<span class="propValue" id="wordsCount"></span></p>
+        <p class="property">Length of the maximal word:<span class="propValue" id="maxWordLength"></span></p>
+        <p class="property">Length of the minimal word:<span class="propValue" id="minWordLength"></span></p>
+        <p class="property">Average length of words:<span class="propValue" id="avgWordLength"></span></p>   
+    </div>
+    </div>
+    <script src="task1.js"></script>
 </body>
 </html>

@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Calibri, sans-serif;
+   
+}
+h1{
+    font-weight: normal;
+}
+
+.wrapper{
+    width: 40%;
+    margin: 0  auto;
+    min-width: 500px;
+}
+.inputField{
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30vh ;
+}
+
+.calculateButton{
+    
+    margin-left:80%;
+    width: 20%;
+  
+}
+.property{
+    display: block;
+}
+
+.propValue{
+    font-weight: bold;
+}
+.propValue::before{
+    content: "<";
+}
+.propValue::after{
+    content: ">";
+}
